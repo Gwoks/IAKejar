@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+
+    tools:context="com.example.a.iakejar.MainActivity"
+    >
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:src="@drawable/orng"
+        android:id="@+id/img_clue1"
+        android:padding="15dp"
+        />
+
+    <RadioGroup
+        android:padding="15dp"
+        android:id="@+id/rg_lvl1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center">
+
+        <RadioButton
+            android:id="@+id/rb1_bk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Belah Ketupat" />
+
+        <RadioButton
+            android:id="@+id/rb1_ling"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lingkaran" />
+        <RadioButton
+            android:id="@+id/rb1_pers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Persegi" />
+        <RadioButton
+            android:id="@+id/rb1_segi3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Segitiga" />
+        <RadioButton
+            android:id="@+id/rb1_trap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Trapesium" />
+    </RadioGroup>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:text="Submit"
+        android:textSize="20dp"
+        android:id="@+id/btn_lvl1"
+        />
+
+</LinearLayout>
